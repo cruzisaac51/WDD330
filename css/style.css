@@ -220,3 +220,31 @@ h1 {
         padding: 10px;
     }
 }
+
+.motto-card {
+    font-style: italic;
+    font-size: 1rem;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+}
+.cards-container{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    color:var(--dark);
+}
+.the-section .card {
+    background-color: var(--dark);
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    padding: 1em;
+}
+.card h2{
+    color: var(--primary);
+}
+.par-card{
+    color: var(--primary)
+}
